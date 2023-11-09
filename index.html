@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Igor Kaczorek's portfolio" />
+    <meta name="keywords" content="Igor Kaczorek" />
+    <meta name="author" content="Igor Kaczorek" />
+    <title>Igor's portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+  </head>
+  <body>
+    <!-- --------navbar-------- -->
+
+    <header>
+      <nav>
+        <p class="logo"><span>I</span>gor.</p>
+        <ul id="menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <img
+            class="icons"
+            onclick="closemenu()"
+            src="https://img.icons8.com/sf-black-filled/64/ffd700/x.png"
+            alt="close menu"
+          />
+        </ul>
+        <img
+          class="icons"
+          onclick="openmenu()"
+          src="https://img.icons8.com/sf-black/64/ffd700/menu.png"
+          alt="open menu"
+        />
+      </nav>
+    </header>
+
+    <!-- --------home-------- -->
+
+    <main>
+      <section id="home">
+        <div class="home-content">
+          <div>
+            <h1 id="introduce">Hi, My name is Kaczorek</h1>
+            <div id="name">
+              <h1>
+                <span id="name-first"
+                  >Igor<span id="name-first-symbol">@</span></span
+                >
+                Kaczorek
+              </h1>
+            </div>
+            <p id="animation">Future Full-stack Developer</p>
+          </div>
+          <img
+            class="myphoto"
+            src="images/myphoto.png"
+            alt="myphoto"
+            width="200"
+            height="447"
+          />
+        </div>
+      </section>
+
+      <!-- -----------about----------- -->
+
+      <section id="about">
+        <p data-text="Work in progress...">Work in progress...</p>
+      </section>
+
+      <!-- -----------skills----------- -->
+
+      <section id="skills">
+        <div class="skills">
+          <h2>technical skills</h2>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/js/" target="_blank">
+                <i class="fa-brands fa-square-js"></i>
+                javascript
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="12">
+                  <span>12%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/css/" target="_blank">
+                <i class="fa-brands fa-css3-alt"></i>
+                css
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="15">
+                  <span>15%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/html/" target="_blank">
+                <i class="fa-brands fa-html5"></i>
+                html
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="30">
+                  <span>30%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/java/" target="_blank">
+                <i class="fa-brands fa-java"></i>
+                java
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="17">
+                  <span>17%</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h2>soft skills</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork"
+                target="_blank"
+              >
+                <i class="fa-solid fa-handshake"></i>
+                teamwork
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="65">
+                  <span>65%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href="https://www.atlassian.com/blog/teamwork/how-you-can-improve-communication-in-the-workplace"
+                target="_blank"
+              >
+                <i class="fa-solid fa-comments"></i>
+                communication
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="70">
+                  <span>70%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href="https://www.atlassian.com/blog/teamwork/9-common-org-charts-demystified"
+                target="_blank"
+              >
+                <i class="fa-solid fa-sitemap"></i>
+                organization
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="72">
+                  <span>72%</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href="https://www.atlassian.com/blog/leadership/coaching-leadership-style"
+                target="_blank"
+              >
+                <i class="fa-solid fa-users-gear"></i>
+                leadership
+              </a>
+              <div class="progress">
+                <div class="progress-bar" data-progress="80">
+                  <span>80%</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- -----------portfolio----------- -->
+
+      <section id="portfolio">
+        <ul class="dynamic-txts">
+          <li>passion</li>
+          <li>knowledge</li>
+          <li>determination</li>
+          <li>programming</li>
+        </ul>
+      </section>
+
+      <!-- -----------contact----------- -->
+
+      <section id="contact">
+        <div class="inner">
+          <p>To Be Continued</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- -----------footer----------- -->
+
+    <footer>
+      <div class="footer">
+        <p>Copyright &copy; 2023 Igor. All rights allowed</p>
+      </div>
+    </footer>
+
+    <!-- --------script-------- -->
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
