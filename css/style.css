@@ -27,7 +27,7 @@ header {
   background: rgba(96, 92, 92, 0.6);
   display: flex;
   justify-content: space-between;
-  z-index: 100;
+  z-index: 1;
 }
 
 .menu {
@@ -76,7 +76,7 @@ header {
 
 /* --------home-------- */
 
-#home {
+.home {
   height: 100vh;
   background-image: url(/images/background.png);
   background-size: cover;
@@ -97,7 +97,7 @@ header {
   border-radius: 50%;
 }
 
-#introduce {
+.introduce {
   font-size: 56px;
   font-family: "Yellowtail", cursive;
 }
@@ -369,7 +369,7 @@ header {
 /* -----------small screen----------- */
 
 @media only screen and (max-width: 1006px) {
-  header .icons {
+  .icons {
     display: block;
     font-size: 25px;
   }
@@ -401,7 +401,6 @@ header {
 
   .home-content {
     display: grid;
-    margin-top: 10px;
     text-align: center;
   }
 
