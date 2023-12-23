@@ -115,7 +115,7 @@ header {
   z-index: 2;
 }
 
-#name-first-symbol {
+.name-first-symbol {
   position: absolute;
   font-size: 50px;
   left: 90px;
@@ -426,7 +426,7 @@ header {
     font-size: 11vw;
   }
 
-  #name-first-symbol {
+  .name-first-symbol {
     font-size: 8vw;
     left: 63%;
     top: -5%;
