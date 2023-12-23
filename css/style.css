@@ -178,7 +178,7 @@ header {
 
 /* -----------skills----------- */
 
-#skills {
+.skills {
   list-style: none;
   text-transform: uppercase;
   height: 100vh;
@@ -190,7 +190,7 @@ header {
   background-position: center;
 }
 
-.skills {
+.skills-container {
   width: 500px;
   height: 400px;
   color: white;
@@ -199,11 +199,11 @@ header {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.75), 0 10px 10px rgba(0, 0, 0, 0.75);
 }
 
-.skills ul {
+.skills-container ul {
   margin-left: 15px;
 }
 
-.skills h2 {
+.skills-container h2 {
   margin: 5px;
   text-align: center;
   color: black;
@@ -408,11 +408,11 @@ header {
     margin: auto;
   }
 
-  #skills {
+  .skills {
     display: grid;
   }
 
-  .skills {
+  .skills-container {
     width: 70vw;
   }
 }
