@@ -109,7 +109,7 @@ header {
   font-family: "Godfather";
 }
 
-#name-first {
+.name-first {
   color: gold;
   position: relative;
   z-index: 2;
